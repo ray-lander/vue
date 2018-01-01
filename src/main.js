@@ -4,6 +4,11 @@
 //导入vue
 import Vue from 'vue'
 
+//导入过滤器
+
+import './filters/date'
+
+
 //导入app组件
 import App from './App.vue'
 

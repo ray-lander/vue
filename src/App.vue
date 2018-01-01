@@ -1,13 +1,13 @@
 <template>
   <div class="cms_container">
-    <mt-header title="黑馬程序猿">
+    <mt-header fixed title="黑馬程序猿">
       <router-link to="/" slot="left">
     <mt-button icon="back">返回</mt-button>    
    </router-link>  
   </mt-header>
   
   <!-- 路由出口 -->
-  <router-view></router-view>
+  <router-view class="content"></router-view>
 
      <!-- 页脚 -->
     <nav class="mui-bar mui-bar-tab">
@@ -40,7 +40,10 @@
 </script>
 
 <style>
-
+	.content {
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
 </style>
 
 
