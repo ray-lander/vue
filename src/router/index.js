@@ -37,7 +37,7 @@ const router = new VueRouter({
         
         //配置图片展示组价
         {path: '/home/photolist', component: photolist},
-        {path: '/home/photoinfo/:id', component: photoinfo},
+        {path: '/home/photoinfo/:id', component: photoinfo, name: 'photoinfo'},
         
 
     ],
